@@ -19,7 +19,12 @@ def get_administrative_divisions(country_code):
         print(f"Произошла ошибка: {err}")
 
 # Работа кода
+'''
 if __name__ == "__main__":
     country_code = "RU"  # Запускаем по стране
     divisions = get_administrative_divisions(country_code)
     print(divisions)
+'''
+country_code = "RU"  # Запускаем по стране
+divisions = get_administrative_divisions(country_code)
+print(divisions)
